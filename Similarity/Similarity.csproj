@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Catalyst" Version="1.0.16767" />
+    <PackageReference Include="HNSW" Version="1.0.12432" />
+    <PackageReference Include="Markdig" Version="0.24.0" />
+  </ItemGroup>
+
+</Project>
